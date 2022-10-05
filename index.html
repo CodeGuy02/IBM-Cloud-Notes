@@ -3,7 +3,7 @@
 <HEAD>
 
     <TITLE>
-        Probability Test
+        IBM Cloud: Notes
     </TITLE>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='style.css'>
@@ -19,9 +19,11 @@
                 <p class='titleHeading'> Command Line Interface </p>
                 <li> ibmcloud login</li>
                 <li> ibmcloud cos config crn <press enter key></li>
+                    <p>  Service Instance ID (CRN)
+                    <p>  You can find the CRN with ibmcloud resource service-instance INSTANCE_NAME
                 <li> ibmcloud cos config list</li>
                 <li> ibmcloud cos objects --bucket BUCKET_NAME --region YOUR_REGION </li>
-                <li>ibmcloud cos bucket-cors-put --bucket BUCKET_NAME --cors-configuration file://CORSRules.json -region YOUR_REGION</li>
+                <li> ibmcloud cos bucket-cors-put --bucket BUCKET_NAME --cors-configuration file://CORSRules.json -region YOUR_REGION</li>
             </div>
         </div>
         <div class='row'>
